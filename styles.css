@@ -1,0 +1,63 @@
+body {
+	color: #9c6644;
+	background-color: #ccd5ae;
+}
+
+/* FORMS */
+.btn-primary {
+	background-color: #ede0d4;
+	color: #b08968;
+
+}
+.btn-primary:hover {
+  background-color: #b08968;
+  color: #ede0d4;
+}
+
+/* NAVBAR */
+.navbar {
+	padding: 1rem;
+	background-color: #ede0d4;
+}
+.navbar a {
+	color: #b08968;
+}
+.navbar a:hover {
+	color: #9c6644;
+	font-style: italic;
+}
+
+/* HERO */
+.jumbotron h1, p {
+	color: white;
+}
+.hero-background-img {
+  position: relative;
+  background: rgba(0, 0, 0, 0.3); /* If our image is bright, we can tone it down with this darker overlay */
+  padding-top:200px;  
+  padding-bottom:200px;
+}
+.hero-background-img:after {
+  content: "";
+  position: absolute;
+  background-image: url("images/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
+
+/* BENEFITS */
+.container h3 {
+	color: #7f5539;
+}
+
+/* FOOTER */
+.footer {
+	background-color: #ede0d4;
+}
